@@ -13,22 +13,22 @@
     padding-top: 4px;
     margin-right: -1vh;
     font-size: 14vh;
+    padding-top: 4px;
+    padding-left:8vw;
+    margin-right: -1vh;
+    padding-right:8vw;
 }
 
 .flex-container {
     display: flex;
-    padding-top: 4px;
-    padding-left:8vw;
-    padding-right:8vw;
-    margin-right: -1vh;
     font-size: 3vh;
     text-align: center;
 }
 .column {
-    flex: 1;
+    flex: 3;
 }
 .square {
-  height: 6.25vh;
-  width: 6.25vh;
-  background-color: #d33b3b;
+  height: 11.05vh;
+  width: 11.05vh;
+  background-color: #868C4C;
 }

@@ -21,20 +21,73 @@ const Home = () => {
     return (
         <div class="main">
               <div class="flex-container">
-                <div class="column" style={{paddingTop: "48vh"}}>
-                    <h2>graphic design</h2>
+
+                <div class="column" style={{paddingTop:"22.1vh"}}>
+                    <div class="square"></div>
                 </div>
-                <div class="column"></div>
-                <div class="column" style={{paddingTop: "22vh"}}>
-                    <h2>ui/ux</h2>
+                <div class="column" style={{paddingTop:"22.1vh"}}>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
-                <div class="column"></div>
-                <div class="column" style={{paddingTop: "12vh"}}>
-                    <h2>resume</h2>
+                <div class="column" style={{paddingTop:"22.1vh"}}>
+                    <div class="square"></div>
+                    
                 </div>
-                <div class="column" style={{paddingTop: "2vh"}}>
-                    <h2>contact</h2>
+                <div class="column">
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    
                 </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                     <div class="square"></div>
+                   
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+            
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+                <div class="column">
+                    <div class="square"></div>
+                    
+                </div>
+
               </div>
             <h1>puly</h1>
             <button onClick={handleDesign}>to design</button>
