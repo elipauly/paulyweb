@@ -1,0 +1,34 @@
+.main {
+    -ms-flex: 80%; /* IE10 */
+    flex: 70%;
+    min-height: 90vh; /* Makes it extend to full viewport height */
+    width: 100%; /* Ensures full width */
+    /* Ensures padding doesn't shrink content width */
+    box-sizing: border-box;
+  }
+
+  /* Top text */
+.pauly-block {
+    text-align: right;
+    padding-top: 4px;
+    margin-right: -1vh;
+    font-size: 14vh;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 4px;
+    padding-left:8vw;
+    padding-right:8vw;
+    margin-right: -1vh;
+    font-size: 3vh;
+    text-align: center;
+}
+.column {
+    flex: 1;
+}
+.square {
+  height: 6.25vh;
+  width: 6.25vh;
+  background-color: #d33b3b;
+}
