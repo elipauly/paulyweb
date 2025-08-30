@@ -19,16 +19,35 @@
     padding-right:8vw;
 }
 
-.flex-container {
-    display: flex;
+.container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     font-size: 3vh;
     text-align: center;
+    color:#D7E0D7;
+    
+}
+.container > div {
+  background-color: #D7E0D7;
+  font-size: 30px;
+  text-align: center;
 }
 .column {
     flex: 3;
 }
 .square {
-  height: 11.05vh;
-  width: 11.05vh;
+  height: 12.05vh;
+  width: 11.3vh;
   background-color: #868C4C;
+}
+.thirdtop-square {
+  height: 3.7vh;
+  width: 11.3vh;
+  background-color: #868C4C;
+}
+
+.outgrid-text {
+    position: absolute;
+    color:#D96F77;
+    background-color: transparent;
 }
