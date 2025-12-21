@@ -22,9 +22,16 @@ const Home = () => {
             <div class="web-text"><h2>web&</h2></div>
             <div class="design-text"><h2>design</h2></div>
 
-            <div class="outgrid-text" onClick={handleContact} style={{top:"8vh",left:"76vw",fontSize:"3vh",backgroundColor:"transparent",cursor:"pointer"}}><h2>contact</h2></div>
-            <div class="outgrid-text" onClick={handleWork} style={{top:"60vh",left:"8vw",fontSize:"3vh",backgroundColor:"transparent",cursor:"pointer"}}><h2>work</h2></div>
-            <div class="outgrid-text" onClick={handleAbout}style={{top:"20vh",left:"60vw",fontSize:"3vh",backgroundColor:"transparent",cursor:"pointer"}}><h2>about</h2></div>
+            <div class="block-text" onClick={handleContact} style={{transform: "translate(-261%, -120%)"}}><h2>cont</h2></div>
+            <div class="block-text" onClick={handleContact} style={{transform: "translate(-369%, -97%)"}}><h2>act</h2></div>
+
+            
+            <div class="block-text" onClick={handleWork} style={{transform: "translate(-50%, -120%)"}}><h2>wo</h2></div>
+            <div class="block-text" onClick={handleWork} style={{transform: "translate(-69%, -97%)", letterSpacing: "-1pt"}}><h2>rk</h2></div>
+            
+            <div class="block-text" onClick={handleAbout}style={{transform: "translate(363%, -120%)"}}><h2>ab</h2></div>
+            <div class="block-text" onClick={handleAbout}style={{transform: "translate(250%, -97%)"}}><h2>out</h2></div>
+
             <div class="container">
                 
 
