@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 .App {
   text-align: center;
 }
 
 body {
-  background-color: #D7E0D7;
+  background-color: #ebecea;
   color: #36302B;
   text-align: center;
   position:relative;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .App-logo {

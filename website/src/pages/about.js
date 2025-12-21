@@ -1,7 +1,5 @@
 import React from "react";
-import './contact.css';
-
-const Contact = () => {
+const About = () => {
     return (
         <div>
             <div class="info-block">
@@ -10,7 +8,7 @@ const Contact = () => {
                 <h2>let's get in</h2>
             </div>
             <div class="contact-lettering">
-                <h1>contact</h1>
+                <h1>about</h1>
             </div>
             <div>
                 <img src={require('../assets/linkedin.jpg')} alt='linkedin' style={{height: 250, objectFit: 'contain'}} />
@@ -24,4 +22,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default About;

@@ -1,0 +1,29 @@
+.contact-lettering {
+    color: #868C4C;
+    top:0px;
+    bottom:0px;
+    transform: translate(-2vw,43vh);
+    position:fixed;
+    font-size: 18vh;
+}
+
+.lets-lettering {
+    color: #D96F77;
+    top:0px;
+    bottom:0px;
+    transform: translate(4vw, 57vh);
+    position: fixed;
+    font-size: 8vh;
+    font-style: italic;
+}
+
+.info-block {
+    padding-top:13vh;
+    width:30vw;
+    transform:translate(35vw,0);
+    position:relative;
+    color: #36302B;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: normal;
+}

@@ -1,14 +1,14 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-const Design = () => {
+const Work = () => {
     return (
         <div>
             <h1>
-                design
+                work
             </h1>
         </div>
     );
 };
 
-export default Design;
+export default Work;

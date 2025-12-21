@@ -24,11 +24,11 @@
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     font-size: 3vh;
     text-align: center;
-    color:#D7E0D7;
+    color:#ebecea;
     
 }
 .container > div {
-  background-color: #D7E0D7;
+  background-color: #ebecea;
   font-size: 30px;
   text-align: center;
 }
@@ -38,16 +38,44 @@
 .square {
   height: 12.05vh;
   width: 11.3vh;
-  background-color: #868C4C;
+  background-color: #39292a;
+  z-index: 1;
 }
 .thirdtop-square {
   height: 3.7vh;
   width: 11.3vh;
-  background-color: #868C4C;
+  background-color: #39292a;
 }
 
 .outgrid-text {
-    position: absolute;
-    color:#D96F77;
+    position: fixed;
+    color:#39292a;
     background-color: transparent;
+}
+
+.pauly-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:64pt;
+  background-color:transparent;
+}
+
+.web-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-114%, -20%);
+  font-size:64pt;
+  background-color:transparent;
+}
+
+.design-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(15%, 10%);
+  font-size:64pt;
+  background-color:transparent;
 }
