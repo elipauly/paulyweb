@@ -23,17 +23,6 @@
 .column {
     flex: 3;
 }
-.square {
-  height: 12.05vh;
-  width: 11.3vh;
-  background-color: #39292a;
-  z-index: 1;
-}
-.thirdtop-square {
-  height: 3.7vh;
-  width: 11.3vh;
-  background-color: #39292a;
-}
 
 .block-text{
   position: fixed;

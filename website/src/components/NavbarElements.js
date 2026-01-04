@@ -3,39 +3,70 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    background: #ebecea;
     height: 105px;
     display: flex;
-    justify-content: space-between;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
+    justify-content: center;
+    align-items: center;
     z-index: 12;
+    padding: 0 50px;
+    padding-top: 20px;
 `;
 
 export const NavLink = styled(Link)`
-    color: #000000;
+    position: relative;
+    color: #000;
     font-size: 48px;
     font-weight: 400;
-    display: flex;
-    align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
+    line-height: 0.67;
     cursor: pointer;
-    &.active {
-        font-weight: 800;
-    }
+`;
+
+export const CenterLink = styled(NavLink)`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateX(-30px);
+
+  span {
+    line-height: .67;
+    text-align: left;
+  }
 `;
 
 export const NavMenu = styled.div`
-    display: flex;
-    align-items: center;
-    margin-right: -24px;
-    /* Second Nav */
-    /* margin-right: 24px; */
-    /* Third Nav */
-    /* width: 100vw;
-white-space: nowrap; */
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 30vw;
+  align-items: start;
+
+  /* shared indicator */
+  &::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    width: 63px;
+    height: 70px;
+    background: #d3d3d3;
+    transform: translateX(-50%);
+    transition: left 600ms cubic-bezier(0.4, 0, 0.1, 1);
+    left: 50%; /* default */
+  }
+
+  /* contact active */
+  &:has(a.active:nth-child(1))::before {
+    left: 4.2%;
+  }
+
+  /* work active */
+  &:has(a.active:nth-child(2))::before {
+    left: 50%;
+  }
+
+  /* about active */
+  &:has(a.active:nth-child(3))::before {
+    left: 95%;
+  }
 `;
