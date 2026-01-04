@@ -48,25 +48,45 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -35%);
-  font-size:64pt;
+  transform: translate(-50%, 5%);
+  font-size:48pt;
   background-color:transparent;
+}
+
+.pauly-text h2 {
+  font-weight: 400;
 }
 
 .web-text {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-114%, -5%);
-  font-size:64pt;
+  transform: translate(-114%, 35%);
+  font-size:48pt;
   background-color:transparent;
+}
+.web-text h2 {
+  font-weight: 400;
 }
 
 .design-text {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(15%, 10%);
-  font-size:64pt;
+  transform: translate(15%, 52%);
+  font-size:48pt;
   background-color:transparent;
+}
+.design-text h2 {
+  font-weight: 400;
+}
+
+.square {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 142pt;
+  height: 130pt;
+  background-color: #d3d3d3;
+  z-index: -1;
 }

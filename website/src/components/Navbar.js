@@ -6,20 +6,14 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavMenu>
-                    <NavLink to="/design" activeStyle>
-                        graphic design
-                    </NavLink>
-                    <NavLink to="/uiux" activeStyle>
-                        ui/ux
-                    </NavLink>
-                    <NavLink to="/" activeStyle>
-                        pauly
-                    </NavLink>
-                    <NavLink to="/resume" activeStyle>
-                        resume
-                    </NavLink>
                     <NavLink to="/contact" activeStyle>
                         contact
+                    </NavLink>
+                    <NavLink to="/work" activeStyle>
+                        wo<br/>rk
+                    </NavLink>
+                    <NavLink to="/about" activeStyle>
+                        about
                     </NavLink>
                 </NavMenu>
             </Nav>
